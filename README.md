@@ -1,51 +1,69 @@
-📊 ChartVision AI
-Yapay Zeka Destekli Grafik Analiz Platformu
+🚀 Chartly – Yapay Zeka Destekli Veri Görselleştirme Platformu
 
-ChartVision AI, yüklediğiniz grafik görsellerini yapay zeka ile analiz eden, grafik türünü otomatik tespit eden, verileri değerlendiren ve CSV veri setleri üzerinden görselleştirme önerileri sunan modern bir analiz platformudur.
+    Chartly, verilerinizi dakikalar içinde analiz edip görselleştirmenizi sağlayan modern, yapay zeka destekli bir web uygulamasıdır.
+    Hem CSV veri analizi yapar hem de yüklediğiniz grafik görsellerini Gemini Vision AI ile analiz eder, grafik türünü çözer, açıklama üretir ve veri uyumluluğunu değerlendirir.
 
-Bu proje: Google Gemini 2.0 Vision, FastAPI backend, React + Vite frontend ve Antigravity AI geliştirme ortamı kullanılarak geliştirilmiştir.
+🖼️ Arayüz Önizleme
 
-🚀 Öne Çıkan Özellikler
-🎯 1. Görsel Grafik Analizi
+Bu görseli daha sonra kendi ekran görüntün ile değiştirebilirsin.
 
- Bar, Pie, Line, Scatter, Radar ve diğer grafik türlerini otomatik tanır
+✨ Öne Çıkan Özellikler
+📂 1. Akıllı CSV Veri Analizi
 
- Google Gemini Vision ile piksel tabanlı analiz
+Yüklenen veri setindeki sütun tiplerini otomatik algılar:
+Sayısal · Kategorik · Tarihsel
 
- Grafik–veri uyumluluğunu kontrol eder
+Veri profil çıkarımı yapar (min, max, unique count, distribution)
 
-Hatalı veri tespitinde detaylı açıklamalar sunar
+Otomatik grafik önerileri üretir:
+Histogram, Bar Chart, Line Chart, Scatter Plot, Heatmap
 
-🧠 2. CSV Veri Analizi
+🤖 2. AI Grafik Dedektifi (Gemini Vision 2.0)
 
- Veri setindeki kolonları otomatik olarak sınıflandırır (categorical / numeric)
+Herhangi bir grafik görseli yüklediğinizde:
 
- Uygun grafik önerileri üretir
+Grafik türünü otomatik tespit eder
 
- Kullanıcı seçimiyle hızlı grafik oluşturma
+Grafiğin anlattıklarını Türkçe açıklar
 
-🎨 3. Modern Arayüz (Frontend)
+Veri setinizle eşleşip eşleşmediğini analiz eder
 
-React + Vite ile yüksek performans
+Radar, Pie, BoxPlot, Scatter, Line vb. tüm grafik formatlarını tanır
 
-Karanlık tema ve modern tasarım
+🎨 3. İnteraktif Grafik Oluşturma
 
-Responsive yapı
+Plotly tabanlı interaktif zoom/pan grafikler
 
-Akıcı animasyonlar
+Canlı stil değiştirme
 
-⚡ 4. FastAPI Backend Özellikleri
+Grafik görünümü anında güncelleme
 
-AI isteklerini işleyen sağlam API katmanı
+⚡ 4. Modern ve Hızlı Arayüz
 
-Gemini Vision entegrasyonu
+React + Vite ile ultra hızlı geliştirme
 
-.env ile güvenli API anahtarı yönetimi
+TailwindCSS ile modern UI
 
-🧰 Kullanılan Teknolojiler
-Frontend
+“Dark Mode” uyumlu
 
-React
+Responsive mobil tasarım
+
+🛠️ Kullanılan Teknolojiler
+Backend (Python + FastAPI)
+
+FastAPI
+
+Google Gemini 2.0 Vision API
+
+Pandas
+
+Plotly
+
+Uvicorn
+
+Pydantic
+
+Frontend (React + TypeScript)
 
 Vite
 
@@ -53,24 +71,4 @@ TailwindCSS
 
 Axios
 
-Backend
-
-FastAPI
-
-Python
-
-Uvicorn
-
-Pydantic
-
-Google Gemini AI SDK
-
-Diğer
-
-Antigravity AI
-
-GitHub
-
-Google Cloud Platform
-
-🖼️ Ekran Görselleri
+Lucide Icons
