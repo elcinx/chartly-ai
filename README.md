@@ -1,27 +1,81 @@
-📊 Chartly — AI Destekli Grafik Analiz Uygulaması
+📊 ChartVision AI — Yapay Zeka Destekli Grafik Analiz Platformu
 
-Chartly, yüklenen grafik görsellerini analiz edip grafik türünü otomatik tanımlayan, veri uyumluluğunu kontrol eden ve modern bir arayüzle çalışan yapay zeka destekli görsel analiz platformudur.
+ChartVision AI, yüklediğiniz grafik görsellerini yapay zeka ile analiz eden, grafik türünü otomatik tespit eden, verilerinizle uyumluluğunu inceleyen ve CSV veri setleri üzerinden görselleştirme önerileri sunan modern bir veri analizi platformudur.
 
-🚀 Özellikler
+Bu proje;
+Google Gemini 2.0 Vision,
+FastAPI backend,
+React + Vite frontend,
+ve Antigravity AI geliştirme ortamı kullanılarak geliştirilmiştir.
 
-Google Gemini 2.0 Vision ile görsel grafik analizi
+🚀 Öne Çıkan Özellikler
+📈 1. Görsel Grafik Analizi
 
-CSV veri seti analiz modülü
+Pie, Bar, Line, Scatter, Radar vb. grafik türlerini otomatik algılar
 
-Otomatik grafik türü tespiti (Pie / Bar / Line / Scatter / Radar vb.)
+Google Gemini Vision ile piksel tabanlı analiz
 
-Veri–grafik uyum kontrolü
+Grafik–veri uyumluluğunu kontrol eder
 
-Modern & responsive frontend
+Hatalı veri eşleşmelerinde detaylı geri bildirim sağlar
 
-FastAPI tabanlı backend
+🧠 2. CSV Veri Analizi
 
-🧠 Kullanılan Teknolojiler
+Yüklenen veri setindeki kolonları otomatik sınıflandırır (categorical / numeric)
 
-Python / FastAPI
+Grafik önerisi üretir (Histogram, Bar Chart, Scatter Plot vb.)
 
-React / Vite / Tailwind
+Kullanıcı seçimiyle anında grafik oluşturma
 
-Google Gemini API
+🎨 3. Modern Frontend Arayüzü
 
-Antigravity AI geliştirme ortamı
+React + Vite tabanlı hızlı SPA mimarisi
+
+Karanlık tema (Dark UI)
+
+Akıcı animasyonlar
+
+Responsiveness: tüm cihazlarda düzgün görünüm
+
+⚡ 4. FastAPI Backend (Python)
+
+Veri analizi ve AI isteklerinin işlendiği güvenli API katmanı
+
+Gemini Vision entegrasyonu
+
+Ortam değişkeni korumalı API anahtarı yönetimi
+
+🧰 Kullanılan Teknolojiler
+🔹 Frontend
+
+React
+
+Vite
+
+TailwindCSS
+
+Axios
+
+File Upload Components
+
+🔹 Backend
+
+Python
+
+FastAPI
+
+Uvicorn
+
+Pydantic
+
+Google Gemini AI SDK
+
+🔹 DevOps / Araçlar
+
+Antigravity AI (kod üretimi ve hata çözümü)
+
+GitHub
+
+Google Cloud Platform
+
+.env tabanlı yapılandırma
