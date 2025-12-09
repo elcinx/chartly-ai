@@ -1,52 +1,49 @@
-📊 ChartVision AI — Yapay Zeka Destekli Grafik Analiz Platformu
+📊 ChartVision AI
+Yapay Zeka Destekli Grafik Analiz Platformu
 
-ChartVision AI, yüklediğiniz grafik görsellerini yapay zeka ile analiz eden, grafik türünü otomatik tespit eden, verilerinizle uyumluluğunu inceleyen ve CSV veri setleri üzerinden görselleştirme önerileri sunan modern bir veri analizi platformudur.
+ChartVision AI, yüklediğiniz grafik görsellerini yapay zeka ile analiz eden, grafik türünü otomatik tespit eden, verileri değerlendiren ve CSV veri setleri üzerinden görselleştirme önerileri sunan modern bir analiz platformudur.
 
-Bu proje;
-Google Gemini 2.0 Vision,
-FastAPI backend,
-React + Vite frontend,
-ve Antigravity AI geliştirme ortamı kullanılarak geliştirilmiştir.
+Bu proje: Google Gemini 2.0 Vision, FastAPI backend, React + Vite frontend ve Antigravity AI geliştirme ortamı kullanılarak geliştirilmiştir.
 
 🚀 Öne Çıkan Özellikler
-📈 1. Görsel Grafik Analizi
+🎯 1. Görsel Grafik Analizi
 
-Pie, Bar, Line, Scatter, Radar vb. grafik türlerini otomatik algılar
+ Bar, Pie, Line, Scatter, Radar ve diğer grafik türlerini otomatik tanır
 
-Google Gemini Vision ile piksel tabanlı analiz
+ Google Gemini Vision ile piksel tabanlı analiz
 
-Grafik–veri uyumluluğunu kontrol eder
+ Grafik–veri uyumluluğunu kontrol eder
 
-Hatalı veri eşleşmelerinde detaylı geri bildirim sağlar
+Hatalı veri tespitinde detaylı açıklamalar sunar
 
 🧠 2. CSV Veri Analizi
 
-Yüklenen veri setindeki kolonları otomatik sınıflandırır (categorical / numeric)
+ Veri setindeki kolonları otomatik olarak sınıflandırır (categorical / numeric)
 
-Grafik önerisi üretir (Histogram, Bar Chart, Scatter Plot vb.)
+ Uygun grafik önerileri üretir
 
-Kullanıcı seçimiyle anında grafik oluşturma
+ Kullanıcı seçimiyle hızlı grafik oluşturma
 
-🎨 3. Modern Frontend Arayüzü
+🎨 3. Modern Arayüz (Frontend)
 
-React + Vite tabanlı hızlı SPA mimarisi
+React + Vite ile yüksek performans
 
-Karanlık tema (Dark UI)
+Karanlık tema ve modern tasarım
+
+Responsive yapı
 
 Akıcı animasyonlar
 
-Responsiveness: tüm cihazlarda düzgün görünüm
+⚡ 4. FastAPI Backend Özellikleri
 
-⚡ 4. FastAPI Backend (Python)
-
-Veri analizi ve AI isteklerinin işlendiği güvenli API katmanı
+AI isteklerini işleyen sağlam API katmanı
 
 Gemini Vision entegrasyonu
 
-Ortam değişkeni korumalı API anahtarı yönetimi
+.env ile güvenli API anahtarı yönetimi
 
 🧰 Kullanılan Teknolojiler
-🔹 Frontend
+Frontend
 
 React
 
@@ -56,13 +53,11 @@ TailwindCSS
 
 Axios
 
-File Upload Components
-
-🔹 Backend
-
-Python
+Backend
 
 FastAPI
+
+Python
 
 Uvicorn
 
@@ -70,12 +65,12 @@ Pydantic
 
 Google Gemini AI SDK
 
-🔹 DevOps / Araçlar
+Diğer
 
-Antigravity AI (kod üretimi ve hata çözümü)
+Antigravity AI
 
 GitHub
 
 Google Cloud Platform
 
-.env tabanlı yapılandırma
+🖼️ Ekran Görselleri
